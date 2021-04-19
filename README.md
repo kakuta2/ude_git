@@ -230,3 +230,7 @@ git diff <ブランチ名A> <ブランチ名B>
 git clone -b ブランチ名 https://リポジトリのアドレス
 git clone -b kadai01 git@github.com:kakuta2/ude_git.git
 ```
+
+```
+git grep --cached -I $'\r'
+```
