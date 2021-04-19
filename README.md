@@ -231,6 +231,7 @@ git clone -b ブランチ名 https://リポジトリのアドレス
 git clone -b kadai01 git@github.com:kakuta2/ude_git.git
 ```
 
+■リポジトリに「CR LF」の改行コードがあるかを調べる
 ```
 git grep --cached -I $'\r'
 ```
